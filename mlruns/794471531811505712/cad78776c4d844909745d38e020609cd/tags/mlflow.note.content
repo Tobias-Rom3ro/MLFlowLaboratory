@@ -1,0 +1,14 @@
+
+Experimento LLM: gemini-1.5-flash
+
+Configuración:
+• Proveedor: Google AI
+• Tarea: Traducción de texto técnico
+• Temperatura: 0.7
+
+Resultados:
+• Latencia: 0.000 segundos
+• Tokens totales: 0
+• Velocidad: 0.00 palabras/seg
+
+Estado: Fallido

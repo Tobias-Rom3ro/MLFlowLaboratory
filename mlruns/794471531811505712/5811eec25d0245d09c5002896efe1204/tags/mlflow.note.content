@@ -1,0 +1,14 @@
+
+Experimento LLM: gemini-2.0-flash-exp
+
+Configuración:
+• Proveedor: Google AI
+• Tarea: Respuesta a preguntas técnicas
+• Temperatura: 0.7
+
+Resultados:
+• Latencia: 10.952 segundos
+• Tokens totales: 1386
+• Velocidad: 81.45 palabras/seg
+
+Estado: Exitoso

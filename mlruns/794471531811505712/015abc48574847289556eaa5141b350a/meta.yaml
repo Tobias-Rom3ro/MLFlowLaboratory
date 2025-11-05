@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Usuario/PycharmProjects/MLFlowLaboratory/mlruns/794471531811505712/015abc48574847289556eaa5141b350a/artifacts
+end_time: 1762378499724
+entry_point_name: ''
+experiment_id: '794471531811505712'
+lifecycle_stage: active
+run_id: 015abc48574847289556eaa5141b350a
+run_name: gemini_code_generation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762378489874
+status: 3
+tags: []
+user_id: Usuario

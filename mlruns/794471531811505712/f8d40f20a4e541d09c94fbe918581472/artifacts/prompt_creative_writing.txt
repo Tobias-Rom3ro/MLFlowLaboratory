@@ -1,0 +1,4 @@
+TAREA: creative_writing
+================================================================================
+
+Escribe un cuento corto de ciencia ficción sobre un robot que aprende a sentir emociones. Máximo 200 palabras.

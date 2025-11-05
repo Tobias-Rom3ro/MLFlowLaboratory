@@ -1,0 +1,4 @@
+TAREA: translation
+================================================================================
+
+Traduce el siguiente texto al inglés de manera natural: 'El machine learning ha revolucionado la forma en que procesamos y analizamos grandes volúmenes de datos en tiempo real.'

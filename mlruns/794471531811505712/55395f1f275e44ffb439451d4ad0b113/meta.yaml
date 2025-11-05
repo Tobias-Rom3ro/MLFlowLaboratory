@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Usuario/PycharmProjects/MLFlowLaboratory/mlruns/794471531811505712/55395f1f275e44ffb439451d4ad0b113/artifacts
+end_time: 1762378328979
+entry_point_name: ''
+experiment_id: '794471531811505712'
+lifecycle_stage: active
+run_id: 55395f1f275e44ffb439451d4ad0b113
+run_name: deepseek_translation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762378324694
+status: 3
+tags: []
+user_id: Usuario

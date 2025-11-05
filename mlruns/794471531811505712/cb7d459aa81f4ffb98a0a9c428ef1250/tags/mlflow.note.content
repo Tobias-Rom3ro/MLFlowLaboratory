@@ -1,0 +1,14 @@
+
+Experimento LLM: deepseek/deepseek-chat-v3.1:free
+
+Configuración:
+• Proveedor: OpenRouter
+• Tarea: Respuesta a preguntas técnicas
+• Temperatura: 0.7
+
+Resultados:
+• Latencia: 37.861 segundos
+• Tokens totales: 806
+• Velocidad: 12.18 palabras/seg
+
+Estado: Exitoso

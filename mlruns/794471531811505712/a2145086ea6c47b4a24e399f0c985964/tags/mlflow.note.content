@@ -1,0 +1,14 @@
+
+Experimento LLM: deepseek/deepseek-chat-v3.1:free
+
+Configuración:
+• Proveedor: OpenRouter
+• Tarea: Traducción de texto técnico
+• Temperatura: 0.7
+
+Resultados:
+• Latencia: 2.213 segundos
+• Tokens totales: 63
+• Velocidad: 7.68 palabras/seg
+
+Estado: Exitoso

@@ -1,0 +1,99 @@
+MODELO: gemini-2.0-flash-exp
+TEMPERATURA: 0.7
+LATENCIA: 11.166s
+================================================================================
+
+```python
+def busqueda_binaria(lista_ordenada, elemento):
+  """
+  Implementa el algoritmo de búsqueda binaria para encontrar un elemento en una lista ordenada.
+
+  Args:
+    lista_ordenada: La lista ordenada en la que se realizará la búsqueda.  Debe estar ordenada de forma ascendente.
+    elemento: El elemento que se está buscando en la lista.
+
+  Returns:
+    El índice del elemento en la lista si se encuentra, o -1 si el elemento no está presente.
+  """
+
+  bajo = 0  # Índice del primer elemento de la lista (límite inferior)
+  alto = len(lista_ordenada) - 1  # Índice del último elemento de la lista (límite superior)
+
+  while bajo <= alto:  # Mientras que el límite inferior sea menor o igual al límite superior (aún hay elementos que buscar)
+    medio = (bajo + alto) // 2  # Calcula el índice del elemento central (división entera para obtener un entero)
+
+    if lista_ordenada[medio] == elemento:  # Si el elemento central es el que estamos buscando
+      return medio  # Se encontró el elemento, retorna su índice
+
+    elif lista_ordenada[medio] < elemento:  # Si el elemento central es menor que el elemento buscado
+      bajo = medio + 1  # El elemento buscado debe estar en la mitad superior de la lista, actualiza el límite inferior
+
+    else:  # Si el elemento central es mayor que el elemento buscado
+      alto = medio - 1  # El elemento buscado debe estar en la mitad inferior de la lista, actualiza el límite superior
+
+  return -1  # Si el bucle termina sin encontrar el elemento, significa que no está en la lista, retorna -1
+
+# Ejemplos de uso:
+lista_ejemplo = [2, 5, 7, 8, 11, 12]
+
+# Buscar el elemento 13 (no está en la lista)
+indice = busqueda_binaria(lista_ejemplo, 13)
+print(f"El índice de 13 es: {indice}")  # Output: El índice de 13 es: -1
+
+# Buscar el elemento 12 (está en la lista)
+indice = busqueda_binaria(lista_ejemplo, 12)
+print(f"El índice de 12 es: {indice}")  # Output: El índice de 12 es: 5
+
+# Buscar el elemento 5 (está en la lista)
+indice = busqueda_binaria(lista_ejemplo, 5)
+print(f"El índice de 5 es: {indice}")  # Output: El índice de 5 es: 1
+```
+
+**Explicación detallada:**
+
+1. **`busqueda_binaria(lista_ordenada, elemento)`:**
+   - Define la función `busqueda_binaria` que toma dos argumentos:
+     - `lista_ordenada`: La lista en la que se buscará (debe estar ordenada).
+     - `elemento`: El elemento que se está buscando.
+
+2. **`bajo = 0`:**
+   - Inicializa la variable `bajo` con el índice del primer elemento de la lista (0).  `bajo` representa el límite inferior de la búsqueda.
+
+3. **`alto = len(lista_ordenada) - 1`:**
+   - Inicializa la variable `alto` con el índice del último elemento de la lista. `alto` representa el límite superior de la búsqueda.
+
+4. **`while bajo <= alto:`:**
+   - Inicia un bucle `while` que continúa mientras el índice `bajo` sea menor o igual que el índice `alto`. Esto significa que todavía hay una porción de la lista que necesita ser examinada.  Si `bajo` se vuelve mayor que `alto`, significa que la búsqueda ha examinado toda la lista sin encontrar el elemento.
+
+5. **`medio = (bajo + alto) // 2`:**
+   - Calcula el índice del elemento central de la porción actual de la lista.  Se utiliza `//` (división entera) para asegurar que `medio` sea un entero, ya que los índices de las listas deben ser enteros.
+
+6. **`if lista_ordenada[medio] == elemento:`:**
+   - Compara el elemento en el índice `medio` con el `elemento` que se está buscando. Si son iguales, significa que se ha encontrado el elemento.
+
+7. **`return medio`:**
+   - Si se encuentra el elemento, la función retorna el índice `medio` donde se encontró.
+
+8. **`elif lista_ordenada[medio] < elemento:`:**
+   - Si el elemento en el índice `medio` es menor que el `elemento` que se está buscando, significa que el `elemento` (si existe en la lista) debe estar en la mitad superior de la lista.
+
+9. **`bajo = medio + 1`:**
+   - Actualiza el límite inferior (`bajo`) para que sea el índice del elemento siguiente al elemento central (`medio + 1`).  Esto descarta la mitad inferior de la lista (incluyendo el elemento central) de la búsqueda.
+
+10. **`else:`:**
+    - Si el elemento en el índice `medio` es mayor que el `elemento` que se está buscando, significa que el `elemento` (si existe en la lista) debe estar en la mitad inferior de la lista.
+
+11. **`alto = medio - 1`:**
+    - Actualiza el límite superior (`alto`) para que sea el índice del elemento anterior al elemento central (`medio - 1`). Esto descarta la mitad superior de la lista (incluyendo el elemento central) de la búsqueda.
+
+12. **`return -1`:**
+    - Si el bucle `while` termina sin encontrar el elemento (es decir, `bajo` se vuelve mayor que `alto`), significa que el `elemento` no está presente en la lista. En este caso, la función retorna -1 para indicar que el elemento no fue encontrado.
+
+**Características clave del algoritmo de búsqueda binaria:**
+
+* **Eficiencia:** La búsqueda binaria es muy eficiente, especialmente para listas grandes. Tiene una complejidad temporal de O(log n), lo que significa que el número de pasos necesarios para encontrar un elemento crece logarítmicamente con el tamaño de la lista.
+* **Lista ordenada:** Requiere que la lista esté ordenada. Si la lista no está ordenada, la búsqueda binaria no funcionará correctamente.
+* **Divide y vencerás:** Se basa en el principio de "divide y vencerás", dividiendo repetidamente la lista en mitades y descartando la mitad que no contiene el elemento buscado.
+
+Este código proporciona una implementación clara y comentada de la búsqueda binaria, lo que facilita su comprensión y uso. Los ejemplos de uso demuestran cómo llamar a la función y cómo interpretar los resultados.
+

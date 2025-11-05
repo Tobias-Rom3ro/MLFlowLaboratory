@@ -1,0 +1,14 @@
+
+Experimento LLM: deepseek/deepseek-chat-v3.1:free
+
+Configuración:
+• Proveedor: OpenRouter
+• Tarea: Tarea de escritura creativa y narrativa
+• Temperatura: 0.7
+
+Resultados:
+• Latencia: 18.647 segundos
+• Tokens totales: 369
+• Velocidad: 10.40 palabras/seg
+
+Estado: Exitoso

@@ -1,0 +1,1 @@
+Modelo baseline de regresión logística con parámetros por defecto. Utiliza regularización L2 con C=1.0 y solver lbfgs. Este modelo sirve como punto de referencia para comparaciones futuras.

@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Usuario/PycharmProjects/MLFlowLaboratory/mlruns/794471531811505712/10d4a16e6ac64a0ebc0e8dbbf5fb22ae/artifacts
+end_time: 1762378511614
+entry_point_name: ''
+experiment_id: '794471531811505712'
+lifecycle_stage: active
+run_id: 10d4a16e6ac64a0ebc0e8dbbf5fb22ae
+run_name: gemini_question_answering
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762378500733
+status: 3
+tags: []
+user_id: Usuario

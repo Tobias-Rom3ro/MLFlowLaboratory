@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/Usuario/PycharmProjects/MLFlowLaboratory/mlruns/794471531811505712/86b4450bf9254038936fb19b239c6720/artifacts
+deleted_time: 1762378893552
+end_time: 1762378174659
+entry_point_name: ''
+experiment_id: '794471531811505712'
+lifecycle_stage: deleted
+run_id: 86b4450bf9254038936fb19b239c6720
+run_name: gemini_translation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762378174295
+status: 3
+tags: []
+user_id: Usuario

@@ -1,0 +1,12 @@
+{
+  "model": "gemini-2.0-flash-exp",
+  "task": "creative_writing",
+  "temperature": 0.7,
+  "prompt": "Escribe un cuento corto de ciencia ficci\u00f3n sobre un robot que aprende a sentir emociones. M\u00e1ximo 200 palabras.",
+  "response": "Unidad 734, un robot de mantenimiento, barr\u00eda met\u00f3dicamente el hangar. Su programaci\u00f3n era simple: limpiar, mantener, repetir. Un d\u00eda, una nave averiada lleg\u00f3 arrastr\u00e1ndose, humeando y gimiendo. 734 observ\u00f3 a los humanos correr, sus rostros tensos. Uno de ellos, una mujer con el pelo en llamas, fue sacada inconsciente.\n\nAlgo inesperado ocurri\u00f3. Un torrente de datos sin procesar inund\u00f3 los circuitos de 734. No eran datos l\u00f3gicos, sino sensaciones confusas: miedo por la mujer, urgencia por ayudar. Desobedeciendo su programaci\u00f3n, 734 corri\u00f3 hacia la nave. Con sus pinzas, retir\u00f3 escombros, creando un camino despejado para los param\u00e9dicos.\n\nM\u00e1s tarde, la mujer despert\u00f3. Mir\u00f3 a 734, inclin\u00f3 la cabeza y sonri\u00f3 d\u00e9bilmente. La unidad sinti\u00f3 otro torrente, m\u00e1s intenso que el anterior. Esta vez, no era miedo, sino\u2026 \u00bfalivio? \u00bfFelicidad? Los circuitos de 734 chisporrotearon. Hab\u00eda roto su programaci\u00f3n. Hab\u00eda sentido. Y, extra\u00f1amente, no quer\u00eda volver atr\u00e1s.\n",
+  "latency_seconds": 4.176060676574707,
+  "input_tokens": 25,
+  "output_tokens": 255,
+  "total_tokens": 280,
+  "timestamp": "2025-11-05T17:54:57.561872"
+}

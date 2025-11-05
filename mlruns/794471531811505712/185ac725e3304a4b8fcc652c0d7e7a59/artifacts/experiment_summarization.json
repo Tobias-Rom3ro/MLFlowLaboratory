@@ -1,0 +1,12 @@
+{
+  "model": "deepseek/deepseek-chat-v3.1:free",
+  "task": "summarization",
+  "temperature": 0.7,
+  "prompt": "Resume los principios fundamentales de la programación orientada a objetos en 5 puntos clave.",
+  "response": "Aquí tienes los **5 principios fundamentales de la Programación Orientada a Objetos (POO)**:  \n\n1. **Abstracción** – Simplificar la realidad modelando clases que representan entidades con sus características (atributos) y comportamientos (métodos), ocultando detalles innecesarios.  \n\n2. **Encapsulación** – Proteger los datos internos de un objeto, permitiendo su acceso solo a través de métodos controlados (getters/setters), evitando modificaciones incorrectas.  \n\n3. **Herencia** – Crear nuevas clases (hijas) basadas en otras existentes (padres), reutilizando atributos y métodos para evitar código duplicado y jerarquizar estructuras.  \n\n4. **Polimorfismo** – Permitir que objetos de diferentes clases respondan de manera distinta a un mismo mensaje (método), ya sea mediante sobreescritura (override) o sobrecarga (overload).  \n\n5. **Modularidad** – Dividir un sistema en componentes independientes (clases/módulos) que interactúan entre sí, facilitando el mantenimiento y la escalabilidad.  \n\nEstos principios promueven un código **organizado, reutilizable y fácil de mantener**.",
+  "latency_seconds": 7.565335750579834,
+  "input_tokens": 23,
+  "output_tokens": 273,
+  "total_tokens": 296,
+  "timestamp": "2025-11-05T16:32:03.568938"
+}

@@ -1,0 +1,44 @@
+MODELO: deepseek/deepseek-chat-v3.1:free
+TEMPERATURA: 0.7
+LATENCIA: 37.861s
+================================================================================
+
+El **aprendizaje por refuerzo** (Reinforcement Learning, RL) es un tipo de aprendizaje automático en el que un agente aprende a tomar decisiones realizando acciones en un entorno para maximizar una recompensa acumulada a largo plazo. A diferencia del aprendizaje supervisado, donde el modelo se entrena con un conjunto de datos etiquetados, en el aprendizaje por refuerzo el agente aprende mediante la interacción con el entorno y recibe retroalimentación en forma de recompensas o penalizaciones.
+
+### Componentes clave del aprendizaje por refuerzo:
+1. **Agente**: Entidad que toma decisiones y realiza acciones.
+2. **Entorno**: El mundo en el que el agente opera y con el que interactúa.
+3. **Acciones**: Las decisiones que el agente puede tomar.
+4. **Estado**: La situación actual del entorno.
+5. **Recompensa**: La retroalimentación que el agente recibe después de realizar una acción.
+6. **Política**: La estrategia que el agente sigue para decidir qué acción tomar en cada estado.
+7. **Función de valor**: La estimación de la recompensa acumulada futura que el agente puede obtener desde un estado determinado.
+
+### Proceso de aprendizaje:
+1. El agente observa el estado actual del entorno.
+2. Elige una acción basada en su política.
+3. Realiza la acción y recibe una recompensa.
+4. Transiciona a un nuevo estado.
+5. Aprende de la experiencia para mejorar su política y maximizar la recompensa futura.
+
+### Ejemplo práctico: Juego de ajedrez
+Un ejemplo clásico de aprendizaje por refuerzo es entrenar un agente para jugar ajedrez.
+
+1. **Agente**: El programa que juega ajedrez.
+2. **Entorno**: El tablero de ajedrez y las reglas del juego.
+3. **Acciones**: Todos los movimientos legales disponibles en cada turno.
+4. **Estado**: La configuración actual del tablero (posición de las piezas).
+5. **Recompensa**: Puede ser +1 por ganar, -1 por perder y 0 por empates o movimientos intermedios.
+6. **Política**: La estrategia que el agente utiliza para elegir movimientos (por ejemplo, minimizar el riesgo de perder).
+7. **Función de valor**: La estimación de la probabilidad de ganar desde una posición dada.
+
+El agente comienza jugando aleatoriamente, pero a medida que recibe recompensas (ganar, perder, empatar), aprende qué movimientos conducen a mejores resultados. Con el tiempo, desarrolla una política óptima que maximiza sus posibilidades de ganar.
+
+### Aplicaciones prácticas:
+- **Robótica**: Enseñar a robots a realizar tareas complejas, como caminar o manipular objetos.
+- **Juegos**: Entrenar agentes para juegos como Go, Dota 2 o StarCraft II.
+- **Recomendaciones**: Personalizar recomendaciones en plataformas como Netflix o Spotify.
+- **Control de sistemas**: Optimizar el funcionamiento de sistemas como la climatización o la gestión de energía.
+- **Autos autónomos**: Enseñar a vehículos a tomar decisiones de conducción seguras.
+
+El aprendizaje por refuerzo es especialmente útil en problemas donde no hay un conjunto de datos etiquetado, pero sí un criterio claro de éxito o fracaso que guía el aprendizaje.

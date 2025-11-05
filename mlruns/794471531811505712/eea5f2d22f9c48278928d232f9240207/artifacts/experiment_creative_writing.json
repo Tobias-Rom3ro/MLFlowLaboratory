@@ -1,0 +1,12 @@
+{
+  "model": "gemini-2.0-flash",
+  "task": "creative_writing",
+  "temperature": 0.7,
+  "prompt": "Escribe un cuento corto de ciencia ficción sobre un robot que aprende a sentir emociones. Máximo 200 palabras.",
+  "response": "ERROR: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "latency_seconds": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "total_tokens": 0,
+  "timestamp": "2025-11-05T16:29:28.469102"
+}

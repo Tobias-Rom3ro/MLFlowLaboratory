@@ -1,0 +1,6 @@
+MODELO: deepseek/deepseek-chat-v3.1:free
+TEMPERATURA: 0.7
+LATENCIA: 2.213s
+================================================================================
+
+"Machine learning has revolutionized the way we process and analyze large volumes of data in real time."

@@ -1,0 +1,4 @@
+TAREA: code_generation
+================================================================================
+
+Genera una función en Python que implemente el algoritmo de búsqueda binaria con comentarios explicativos.

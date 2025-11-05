@@ -1,0 +1,18 @@
+MODELO: deepseek/deepseek-chat-v3.1:free
+TEMPERATURA: 0.7
+LATENCIA: 15.681s
+================================================================================
+
+La programación orientada a objetos (POO) se basa en cinco principios fundamentales:
+
+1. **Abstracción**: Representar las características esenciales de un objeto, ocultando los detalles innecesarios. Permite modelar problemas del mundo real de manera simplificada.
+
+2. **Encapsulación**: Agrupar datos y métodos que operan sobre esos datos en una sola unidad (clase), controlando el acceso a ellos. Protege la integridad de los datos y oculta la implementación interna.
+
+3. **Herencia**: Permitir que una clase (subclase) derive características y comportamientos de otra clase (superclase). Facilita la reutilización de código y la creación de jerarquías de clases.
+
+4. **Polimorfismo**: Capacidad de que un mismo método o función opere de manera diferente según el objeto que lo invoque. Permite tratar objetos de diferentes clases de manera uniforme.
+
+5. **Modularidad**: Dividir un programa en componentes independientes y reutilizables (clases o módulos). Facilita el mantenimiento, la escalabilidad y la organización del código. 
+
+Estos principios permiten crear software estructurado, mantenible y escalable.

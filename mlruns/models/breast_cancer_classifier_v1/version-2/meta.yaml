@@ -1,0 +1,15 @@
+creation_timestamp: 1761871498997
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1761871498997
+model_id: m-aa7d75fc2fb44f539cf8a7e46339eb5a
+name: breast_cancer_classifier_v1
+run_id: d4334c10258c462b895f1787e2146b1e
+run_link: null
+source: models:/m-aa7d75fc2fb44f539cf8a7e46339eb5a
+status: READY
+status_message: null
+storage_location: file:C:/Users/Usuario/PycharmProjects/MLFlowLaboratory/mlruns/995893522778280439/models/m-aa7d75fc2fb44f539cf8a7e46339eb5a/artifacts
+user_id: null
+version: 2

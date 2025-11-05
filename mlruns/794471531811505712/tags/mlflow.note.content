@@ -1,0 +1,4 @@
+
+Comparación de modelos LLM (Gemini vs DeepSeek).
+Incluye: prompts controlados, seeds fijas, datasets de prueba y métricas automáticas
+(accuracy EM/F1, exact match, coste estimado por token y latencia).

@@ -1,0 +1,7 @@
+{
+  "model_name": "deepseek/deepseek-chat-v3.1:free",
+  "model_type": "deepseek",
+  "temperature": 0.7,
+  "provider": "OpenRouter",
+  "task": "code_generation"
+}

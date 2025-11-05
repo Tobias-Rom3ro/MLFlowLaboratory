@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Usuario/PycharmProjects/MLFlowLaboratory/mlruns/794471531811505712/b3f8a6ee43ef4167b6ae497286a3bc40/artifacts
+end_time: 1762383297774
+entry_point_name: ''
+experiment_id: '794471531811505712'
+lifecycle_stage: active
+run_id: b3f8a6ee43ef4167b6ae497286a3bc40
+run_name: gemini_creative_writing
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762383293230
+status: 3
+tags: []
+user_id: Usuario

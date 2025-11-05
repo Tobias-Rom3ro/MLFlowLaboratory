@@ -1,0 +1,14 @@
+
+Experimento LLM: gemini-2.0-flash-exp
+
+Configuración:
+• Proveedor: Google AI
+• Tarea: Tarea de escritura creativa y narrativa
+• Temperatura: 0.7
+
+Resultados:
+• Latencia: 4.176 segundos
+• Tokens totales: 280
+• Velocidad: 34.96 palabras/seg
+
+Estado: Exitoso
