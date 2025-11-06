@@ -1,0 +1,19 @@
+# Core notebooks
+ipykernel
+python-dotenv
+
+# Ciencia de datos (ML clásico)
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# MLflow + DagsHub
+mlflow
+dagshub
+
+# LLMs (elige los que uses)
+google-generativeai      # para Gemini
+openai                   # cliente que usa OpenRouter
+requests                 # para llamar a Ollama REST si lo usas
