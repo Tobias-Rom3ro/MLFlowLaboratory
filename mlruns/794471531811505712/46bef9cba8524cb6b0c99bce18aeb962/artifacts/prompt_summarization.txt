@@ -1,4 +1,0 @@
-TAREA: summarization
-================================================================================
-
-Resume los principios fundamentales de la programación orientada a objetos en 5 puntos clave.

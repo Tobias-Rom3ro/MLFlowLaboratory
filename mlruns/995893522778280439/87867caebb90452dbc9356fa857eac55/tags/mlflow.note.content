@@ -1,1 +1,0 @@
-Modelo optimizado con mayor regularización (C=0.1) y solver SAGA. Se busca reducir el overfitting y mejorar la generalización del modelo. Los resultados se comparan con el modelo baseline.

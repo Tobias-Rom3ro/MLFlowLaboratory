@@ -1,4 +1,0 @@
-TAREA: question_answering
-================================================================================
-
-Explica qué es el aprendizaje por refuerzo en machine learning y proporciona un ejemplo práctico de su aplicación.
