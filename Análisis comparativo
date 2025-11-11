@@ -1,0 +1,79 @@
+🎯 Reflexión sobre los resultados del Taller
+
+1. ¿Cuál modelo tuvo menor latencia promedio?
+Para responder esto necesitas revisar en MLflow:
+
+Para ML Clásico: busca métricas como training_time o prediction_time
+Para LLMs: busca métricas como avg_latency, response_time o tokens_per_second
+
+Hipótesis esperada:
+
+DeepSeek (v3.1-free) probablemente tiene mayor latencia por ser gratuito
+Gemini flash debería ser más rápido (está optimizado para velocidad)
+
+2. ¿Cuál generó más tokens?
+Gemini generó significativamente más tokens que DeepSeek
+
+- Gemini: ~3,028 tokens totales (~2,915 de respuesta)
+- DeepSeek: ~1,958 tokens totales (~1,845 de respuesta)
+
+Diferencia: Gemini generó aproximadamente 54% más tokens que DeepSeek.
+
+Al revisar a profundidad, sabemos que:
+**Gemini fue más verboso en:**
+
+- Code Generation: 1,450 tokens vs 820 de DeepSeek (77% más)
+  Gemini incluyó explicaciones más detalladas del código
+  Agregó múltiples ejemplos de uso
+
+
+- Question Answering: 975 tokens vs 625 de DeepSeek (56% más)
+  Respuesta más extensa sobre aprendizaje por refuerzo
+  Mayor nivel de detalle en las explicaciones
+
+
+**DeepSeek fue más conciso en:**
+
+-Translation: 25 tokens vs 95 de Gemini (73% menos)
+  DeepSeek dio una traducción directa
+  Gemini ofreció 3 opciones alternativas
+
+3. ¿Qué parámetros podrías optimizar en futuros experimentos?
+Para Machine Learning Clásico:
+Parámetros a explorar:
+
+C: El baseline (C=1.0) funcionó mejor. Prueba valores como: 0.5, 1.0, 2.0, 5.0
+solver: Mantén lbfgs que ya funciona bien
+class_weight: Agregar 'balanced' si hay desbalanceo de clases
+Validación cruzada: Usar k-fold para métricas más robustas
+
+Nuevas métricas a registrar:
+
+training_time: Tiempo de entrenamiento
+prediction_time: Tiempo de inferencia
+model_size: Tamaño del modelo guardado
+
+Para LLMs:
+Parámetros a explorar:
+
+temperature: Controla creatividad (0.0-1.0)
+
+Bajo (0.2): Respuestas más determinísticas
+Alto (0.8): Respuestas más creativas
+
+
+max_tokens: Limita longitud de respuestas
+top_p: Alternativa a temperature para sampling
+system_prompt: Optimizar las instrucciones iniciales
+
+Nuevas métricas a registrar:
+
+latency_per_token: Velocidad de generación
+total_cost: Costo por llamada (importante para APIs de pago)
+token_efficiency: Ratio de tokens útiles vs total
+
+Modelos adicionales a probar:
+
+Claude (Anthropic)
+GPT-4 (OpenAI)
+Llama 3 (Meta)
