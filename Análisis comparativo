@@ -20,19 +20,17 @@ Gemini generó significativamente más tokens que DeepSeek
 Diferencia: Gemini generó aproximadamente 54% más tokens que DeepSeek.
 
 Al revisar a profundidad, sabemos que:
-**Gemini fue más verboso en:**
+# Gemini fue más verboso en:
 
 - Code Generation: 1,450 tokens vs 820 de DeepSeek (77% más)
   Gemini incluyó explicaciones más detalladas del código
   Agregó múltiples ejemplos de uso
 
-
 - Question Answering: 975 tokens vs 625 de DeepSeek (56% más)
   Respuesta más extensa sobre aprendizaje por refuerzo
   Mayor nivel de detalle en las explicaciones
 
-
-**DeepSeek fue más conciso en:**
+# DeepSeek fue más conciso en:
 
 -Translation: 25 tokens vs 95 de Gemini (73% menos)
   DeepSeek dio una traducción directa
